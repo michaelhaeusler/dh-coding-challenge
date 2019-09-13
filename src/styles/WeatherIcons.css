@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "Weather & Time";
+  src: url("../assets/fonts/Weather&Time.ttf");
+}
+
+.weather-icon {
+  font-family: "Weather & Time";
+  font-weight: 400;
+  line-height: 50px;
+}
+
+.weather-icon--01d::before,
+.weather-icon--01n::before {
+  content: "A";
+}
+
+.weather-icon--02d::before,
+.weather-icon--02n::before {
+  content: "C";
+}
+
+.weather-icon--03d::before,
+.weather-icon--03n::before {
+  content: "G";
+}
+
+.weather-icon--04d::before,
+.weather-icon--04n::before {
+  content: "O";
+}
+
+.weather-icon--09d::before,
+.weather-icon--09n::before {
+  content: "S";
+}
+
+.weather-icon--10d::before,
+.weather-icon--10n::before {
+  content: "X";
+}
+
+.weather-icon--11d::before,
+.weather-icon--11n::before {
+  content: "V";
+}
+
+.weather-icon--13d::before,
+.weather-icon--13n::before {
+  content: "W";
+}
+
+.weather-icon--50d::before,
+.weather-icon--50n::before {
+  content: "N";
+}

@@ -1,0 +1,32 @@
+.city-input-form {
+  margin-bottom: 50px;
+}
+
+.city-input-form input {
+  width: 100%;
+  line-height: 40px;
+  font-size: 40px;
+  font-weight: 200;
+  color: #ff8000;
+  padding: 5px 20px;
+  box-sizing: border-box;
+  text-align: center;
+  margin-bottom: 17px;
+}
+
+.city-input-form input::placeholder {
+  color: #ffd8b2;
+  font-weight: 200;
+}
+
+.city-input-form button {
+  background: none!important;
+  border: none;
+  border-bottom: 1px solid #fff;
+  padding: 0 0 1px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #fff;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: 200;
+}

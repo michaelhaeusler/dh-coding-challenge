@@ -1,0 +1,67 @@
+.weather-today {
+  color: #fff;
+  margin-bottom: 48px;
+}
+
+.weather-today .weather-icon {
+  font-size: 180px;
+  line-height: 180px;
+}
+
+.weather-today .temperature {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 30px;
+}
+
+.weather-today .temperature--left-col {
+  font-size: 7em;
+  letter-spacing: -1px;
+  font-weight: 300;
+}
+
+.weather-today .temperature--right-col {
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.weather-today .weather-icon {
+  margin-bottom: 0px;
+}
+
+.weather-today .temperature--metric {
+  font-family: "Weather & Time";
+  font-size: 2em;
+  font-weight: 300;
+  content: 'l';
+  padding-top: 5px;
+  padding-left: 14px;
+}
+
+.weather-today .temperature--max,
+.weather-today .temperature--min {
+  padding-top: 5px;
+}
+
+.weather-today .temperature--max::before {
+  font-family: "Weather & Time";
+  content: 'q';
+  padding-right: 3px;
+  font-weight: bold;
+}
+
+.weather-today .temperature--min::before {
+  font-family: "Weather & Time";
+  content: 'r';
+  padding-right: 3px;
+  font-weight: bold;
+}
+
+.weather-today .city {
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: capitalize;
+}

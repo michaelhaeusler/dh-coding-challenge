@@ -1,6 +1,7 @@
 {
   "name": "dh-coding-challenge",
   "version": "0.1.0",
+  "author": "Michael Haeusler",
   "private": true,
   "dependencies": {
     "react": "^16.9.0",
@@ -14,7 +15,14 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "react-app",
+    "plugins": [
+      "react-hooks"
+    ],
+    "rules": {
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "warn"
+    }
   },
   "browserslist": {
     "production": [
@@ -27,5 +35,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint-plugin-react-hooks": "^2.0.1",
+    "prop-types": "^15.7.2"
   }
 }
